@@ -1,0 +1,39 @@
+.dialogOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dialog {
+	background-color: var(--color-white);
+	border-radius: 8px;
+	width: 700px;
+	max-width: 100%;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: flex-start;
+	align-items: start;
+}
+
+.dialogFooter {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.dialogBody {
+	padding: 16px;
+}

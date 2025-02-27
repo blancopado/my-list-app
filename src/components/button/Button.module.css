@@ -1,0 +1,21 @@
+.button {
+	display: flex;
+	align-items: center;
+	border: 1px solid var(--color-main-blue);
+	border-radius: 50px;
+	color: var(--color-main-blue);
+	text-transform: uppercase;
+	padding: 15px 50px;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: var(--color-white);
+}
+.button:focus,
+.button:focus-visible {
+	outline: 4px auto var(--color-dark);
+}
+
+.filled {
+	background-color: var(--color-main-blue);
+	color: var(--color-white);
+}
