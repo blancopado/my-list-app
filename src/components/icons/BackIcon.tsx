@@ -1,8 +1,8 @@
-import styles from "./Refresh.module.css";
+import styles from "./BackIcon.module.css";
 
-const Refresh = (props: React.SVGProps<SVGSVGElement>) => (
+const BackIcon = (props: React.SVGProps<SVGSVGElement>) => (
 	<svg
-		className={styles.refresh}
+		className={styles.back}
 		aria-label="refresh icon"
 		role="img"
 		height="24px"
@@ -15,4 +15,4 @@ const Refresh = (props: React.SVGProps<SVGSVGElement>) => (
 	</svg>
 );
 
-export default Refresh;
+export default BackIcon;

@@ -19,3 +19,8 @@
 	background-color: var(--color-main-blue);
 	color: var(--color-white);
 }
+
+.button:disabled {
+	opacity: 0.4;
+	cursor: default;
+}

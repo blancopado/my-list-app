@@ -22,6 +22,7 @@ const MyButton = ({
 			className={classNames(styles.button, filled && styles.filled)}
 			onClick={onClick}
 			type={type}
+			disabled={isDisabled}
 			{...props}
 		>
 			{children}
