@@ -15,3 +15,8 @@ Las funcionalidades que desarrolladas son:
 - Eliminar con doble click.
 - Eliminar varios elementos seleccionados a la vez.
 - Deshacer todos los cambios realizados.
+
+
+### Desplegado en:
+
+my-list-app-psi.vercel.app
